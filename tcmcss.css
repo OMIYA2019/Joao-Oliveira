@@ -1,3 +1,60 @@
+/*acrescentei*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: boder-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h ul {
+	list-style: none;
+	padding: 0;
+	background-color: rgb(102, 136, 231);
+	/*  rgb(37, 37, 39)  */
+}
+
+#menu-h ul li {
+	display: inline;
+}
+
+#menu-h ul li a {
+	color: #FFF;
+	padding: 20px;
+	display: inline-block;
+	text-decoration: none;
+	transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+	background-color: rgb(24, 139, 233);
+}
+
+
+
+
+
+.carousel-item img {
+	width: 1200px;
+	height: 420px;
+
+}
+
+.container {
+	width: 100%;
+}
+
+.log img {
+	width: 90%;/*40*/
+}
+
+
+
+/*ate aqui*/
+ 
+ 
+ 
  @charset "UTF-8";
  {
  	padding: 0px;
@@ -11,7 +68,7 @@
  
  
  /*-------------------------PÁGINA PRINCIPAL(HOME)----------------------------*/
- nav
+/* nav
  {
  	background-color:rgba(0,0,16,.9);
  	border-radius:5px;
@@ -20,14 +77,16 @@
  	top:15%;
  	left: -150px;//-150
  	position:absolute;
- 	transition: all .7s; /* efeito de transição para a barra de nav. dura 0.7 segundos*/
- }
+ 	transition: all .7s; /* efeito de transição para a barra de nav. dura 0.7 segundos
+ }*/
  
  img
  {
- 	padding-top: 0.5%;
- 	padding-left: 0.5%;
- 	
+ 	/*padding-top: 0.5%;
+ 	padding-left: 0.5%;*/
+ 	width: 70px;
+	/*150*/
+	margin-left: 2%;
  }
  .log 
  {
@@ -67,6 +126,8 @@
  {
  	list-style:none; 
  	float:left; 
+	 padding-top: 10px; //20
+	padding-bottom: 0.5px;
  }
 
  .menu li
@@ -76,6 +137,7 @@
  	font-weight:600;
  	font-size:5vw;
  	width: 100%;
+	 display: inline-block;
  	/* asdasdasd */
  }
 
