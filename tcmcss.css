@@ -21,7 +21,7 @@
 
 #menu-h ul li a {
 	color: #FFF;
-	padding: 20px;
+	padding: 25px;/*20*/
 	display: inline-block;
 	text-decoration: none;
 	transition: background .4s;
@@ -116,8 +116,8 @@
  .icones /*icones na página home*/
  {
  	float:center;
- 	width:18vw;//3.5
- 	height:18vw;//3.5
+ 	width:16vw;/*3.5  18 */
+ 	height:12vw;/*3.5  18*/
  	
  }
 
@@ -516,7 +516,7 @@
  /*-------------------------PÁGINA PERGUNTAS FREQUENTES----------------------------*/
  #pFreq
  {
- 	background-image:url(conex.jpg);
+ 	background-image:url();/*conex.jpg*/
  	background-attachment:fixed;
  	background-size:100%;
  	font-family:Arial;
@@ -591,7 +591,7 @@
 
  .imgPort
  {
- 	width: 20vw;
+ 	width: 20vw;/*20*/
  	height: 17vw;
  }
 
@@ -604,7 +604,7 @@
 
  .portDiv td
  {
- 	width:30vw;
+ 	width:30vw;/*30*/
  }
 
  .hidden2
