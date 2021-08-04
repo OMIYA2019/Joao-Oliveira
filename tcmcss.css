@@ -516,7 +516,7 @@
  /*-------------------------PÁGINA PERGUNTAS FREQUENTES----------------------------*/
  #pFreq
  {
- 	background-image:url();/*conex.jpg*/
+ 	background-image:url(fundoFour.jpg);/*conex.jpg     */
  	background-attachment:fixed;
  	background-size:100%;
  	font-family:Arial;
