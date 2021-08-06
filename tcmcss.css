@@ -32,7 +32,11 @@
 }
 
 
+ li p img {
+	width: 35px;
+	height: 35px;
 
+}
 
 
 .carousel-item img {
@@ -84,7 +88,7 @@
  {
  	/*padding-top: 0.5%;
  	padding-left: 0.5%;*/
- 	width: 70px;
+ 	width: 100px;/*70 */
 	/*150*/
 	margin-left: 2%;
  }
