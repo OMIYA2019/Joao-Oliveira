@@ -38,6 +38,13 @@
 
 }
 
+@media (max-width: 600px){
+	li img{
+		width: 100%;
+	}
+}
+
+
 
 .carousel-item img {
 	width: 1200px;
