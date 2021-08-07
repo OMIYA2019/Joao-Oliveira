@@ -282,8 +282,8 @@
 
  #imgSist /* imagem do pc na página home*/
  {
- 	width:1%;
- 	height:1%;
+ 	width:15%;/*25*/
+ 	height:15%;/*25*/
  	padding-right:5%;
  	
  }
@@ -671,4 +671,14 @@
  	
  }
 
- 
+ .center
+ {
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+ }
+
+ #perua
+ {
+	margin-left: 180px; 
+ }
